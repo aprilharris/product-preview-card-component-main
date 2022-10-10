@@ -1,0 +1,126 @@
+:root {
+  --cream: hsl(30, 38%, 92%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --very-dark-blue: hsl(212, 21%, 14%);--white: hsl(0, 0%, 100%);
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  margin: 0;
+  padding:0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;font-size: 14px;
+  background-color: var(--cream);
+}
+
+main {
+  border-radius: 25px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.perfume-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.product-image{
+width: 100vw;
+min-height: 300px;
+background-image: url("images/image-product-mobile.jpg");
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+.price {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: var(--dark-cyan);
+  font-size: 3.25rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.original-price{
+  font-size: 1.3rem;
+  color: var(--dark-grayish-blue);
+}
+
+.product-category {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .50rem;
+  color: var(--dark-grayish-blue);
+}
+
+.product-name {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.product-description {
+  color: var(--dark-grayish-blue);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+
+
+button.addtocart {
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  background-color: var(--dark-cyan);
+  color: hsl(0, 0%, 100%);
+}
+
+/* background-color: #4CAF50; Green
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; */
+
+
+
+
+
+
+footer {
+  background-color: var(--dark-grayish-blue);
+  color: white;
+  margin: 0;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
